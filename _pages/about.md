@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: <a href='#'>Stanford University</a>. Address. Contacts. Moto. Etc.
+Postdoctoral Scholar - <a href="https://www.stanford.edu/">Stanford University</a> - <a href="https://bmir.stanford.edu/">Biomedical Informatics</a>.
 
 profile:
   align: right
