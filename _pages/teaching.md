@@ -2,11 +2,15 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Courses taught in the past.
 nav: true
-nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+* University of California, Santa Barbara
+  * <a href="https://cs.ucsb.edu/education/courses/course-descriptions/introduction-computer-science">CMPSCW 8 Introduction to Computer Science</a>. University of California, Santa Barbara, Summer 2021.
+  * <a href="https://my.sa.ucsb.edu/catalog/current/CollegesDepartments/coe/engrsci.aspx?DeptTab=Courses">ENGR 3 Introduction to Programming</a>. University of California, Santa Barbara, Spring 2021.
+  * <a href="https://cs.ucsb.edu/education/courses/course-descriptions/introduction-computational-science">CMPSC 111 Introduction to Computational Science</a>. University of California, Santa Barbara, Fall 2020.
 
-Organize your courses by years, topics, or universities, however you like!
+* University of Minnesota, Twin Cities
+  * <a href="https://umtc.catalog.prod.coursedog.com/courses/0133851">MATH 1051 Precalculus I - Mathematical Thinking</a>. University of Minnesota, Twin Cities, Fall 2018.
+  * <a href="https://umtc.catalog.prod.coursedog.com/courses/0133861">MATH 1151 Precalculus II - Mathematical Thinking</a>. University of Minnesota, Twin Cities, Spring 2019.
