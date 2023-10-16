@@ -1,84 +1,40 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{wang2023tram,
+  abstract  = {Reasoning about time is essential for understanding the nuances of events described in natural language. Previous research on this topic has been limited in scope, characterized by a lack of standardized benchmarks that would allow for consistent evaluations across different studies. In this paper, we introduce TRAM, a temporal reasoning benchmark composed of ten datasets, encompassing various temporal aspects of events such as order, arithmetic, frequency, and duration, designed to facilitate a comprehensive evaluation of the temporal reasoning capabilities of large language models (LLMs). We conduct an extensive evaluation using popular LLMs, such as GPT-4 and Llama2, in both zero-shot and few-shot learning scenarios. Additionally, we employ BERT-based models to establish the baseline evaluations. Our findings indicate that these models still trail human performance in temporal reasoning tasks. It is our aspiration that TRAM will spur further progress in enhancing the temporal reasoning abilities of LLMs.},
+  title     = {TRAM: Benchmarking Temporal Reasoning for Large Language Models},
+  author    = {Yuqing Wang and Yun Zhao},
+  journal   = {arXiv preprint arXiv:2310.00835},
+  year      = {2023},
+  abbr      = {arXiv},
+  arxiv     = {2310.00835},
+  code      = {https://github.com/eternityyw/tram-benchmark},
+  selected  = {true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{wang2023metacognitive,
+  abstract  = {In Large Language Models (LLMs), there have been consistent advancements in task-specific performance, largely influenced by effective prompt design. While recent research on prompting has enhanced the reasoning capabilities of LLMs, a gap remains in further improving their understanding abilities. In this study, we introduce Metacognitive Prompting (MP), a strategy inspired by human introspective reasoning processes. Using MP, LLMs undergo a systematic series of structured, self-aware evaluations, drawing on both their vast inherent knowledge and new insights. Our experiments involve five prevalent LLMs: Llama2, Vicuna, PaLM, GPT-3.5, and GPT-4, all of which span various general natural language understanding (NLU) tasks from the GLUE and SuperGLUE benchmarks. Results indicate that, although GPT-4 consistently excels in most tasks, PaLM, when equipped with MP, approaches its performance level. Furthermore, across models and datasets, MP consistently outperforms existing prompting methods, including standard and chain-of-thought prompting. This study underscores the potential to amplify the understanding abilities of LLMs and highlights the benefits of mirroring human introspective reasoning in NLU tasks.},
+  title     = {Metacognitive Prompting Improves Understanding in Large Language Models},
+  author    = {Yuqing Wang and Yun Zhao},
+  journal   = {arXiv preprint arXiv:2308.05342},
+  year      = {2023},
+  abbr      = {arXiv},
+  arxiv     = {2308.05342},
+  code      = {https://github.com/EternityYW/Metacognitive-Prompting},
+  selected  = {true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@article{wang2023empirical,
+  abstract  = {The Segment Anything Model (SAM) is a foundation model for general image segmentation. Although it exhibits impressive performance predominantly on natural images, understanding its robustness against various image perturbations and domains is critical for real-world applications where such challenges frequently arise. In this study we conduct a comprehensive robustness investigation of SAM under diverse real-world conditions. Our experiments encompass a wide range of image perturbations. Our experimental results demonstrate that SAM's performance generally declines under perturbed images, with varying degrees of vulnerability across different perturbations. By customizing prompting techniques and leveraging domain knowledge based on the unique characteristics of each dataset, the model's resilience to these perturbations can be enhanced, addressing dataset-specific challenges. This work sheds light on the limitations and strengths of SAM in real-world applications, promoting the development of more robust and versatile image segmentation solutions.},
+  title     = {An Empirical Study on the Robustness of the Segment Anything Model (SAM)},
+  author    = {Yuqing Wang and Yun Zhao and Linda Petzold},
+  journal   = {arXiv preprint arXiv:2305.06422},
+  year      = {2023},
+  abbr      = {arXiv},
+  arxiv     = {2305.06422},
+  code      = {https://github.com/EternityYW/SAM-Robustness},
+  selected  = {false}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
