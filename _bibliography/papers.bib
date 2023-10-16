@@ -46,7 +46,7 @@
   selected  = {false}
 }
 
-@inproceedings{wang2023large,
+@article{wang2023large,
   abstract  = {Large language models (LLMs) have made significant progress in various domains, including healthcare. However, the specialized nature of clinical language understanding tasks presents unique challenges and limitations that warrant further investigation. In this study, we conduct a comprehensive evaluation of state-of-the-art LLMs, namely GPT-3.5, GPT-4, and Bard, within the realm of clinical language understanding tasks. These tasks span a diverse range, including named entity recognition, relation extraction, natural language inference, semantic textual similarity, document classification, and question-answering. We also introduce a novel prompting strategy, self-questioning prompting (SQP), tailored to enhance LLMs' performance by eliciting informative questions and answers pertinent to the clinical scenarios at hand. Our evaluation underscores the significance of task-specific learning strategies and prompting techniques for improving LLMs' effectiveness in healthcare-related tasks. Additionally, our in-depth error analysis on the challenging relation extraction task offers valuable insights into error distribution and potential avenues for improvement using SQP. Our study sheds light on the practical implications of employing LLMs in the specialized domain of healthcare, serving as a foundation for future research and the development of potential applications in healthcare settings.},
   title     = {Are Large Language Models Ready for Healthcare? A Comparative Study on Clinical Language Understanding},
   author    = {Yuqing Wang and Yun Zhao and Linda Petzold},
@@ -73,7 +73,7 @@
   selected  = {true}
 }
 
-@inproceedings{wang2022integrating,
+@article{wang2022integrating,
   abstract  = {Sepsis is a leading cause of death in the Intensive Care Units (ICU). Early detection of sepsis is critical for patient survival. In this paper, we propose a multimodal Transformer model for early sepsis prediction, using the physiological time series data and clinical notes for each patient within 36 hours of ICU admission. Specifically, we aim to predict sepsis using only the first 12, 18, 24, 30 and 36 hours of laboratory measurements, vital signs, patient demographics, and clinical notes. We evaluate our model on two large critical care datasets: MIMIC-III and eICU-CRD. The proposed method is compared with six baselines. In addition, ablation analysis and case studies are conducted to study the influence of each individual component of the model and the contribution of each data modality for early sepsis prediction. Experimental results demonstrate the effectiveness of our method, which outperforms competitive baselines on all metrics.},
   title     = {Integrating Physiological Time Series and Clinical Notes with Transformer for Early Prediction of Sepsis},
   author    = {Yuqing Wang and Yun Zhao and Rachael Callcut and Linda Petzold},
@@ -85,7 +85,7 @@
   selected  = {false}
 }
 
-@inproceedings{wang2022enhancing,
+@article{wang2022enhancing,
   abstract  = {Most current multivariate time series (MTS) classification algorithms focus on improving the predictive accuracy. However, for large-scale (either high-dimensional or long-sequential) time series (TS) datasets, there is an additional consideration: to design an efficient network architecture to reduce computational costs such as training time and memory footprint. In this work we propose a methodology based on module-wise pruning and Pareto analysis to investigate the relationship between model efficiency and accuracy, as well as its complexity. Comprehensive experiments on benchmark MTS datasets illustrate the effectiveness of our method.},
   title     = {Enhancing Transformer Efficiency for Multivariate Time Series Classification},
   author    = {Yuqing Wang and Yun Zhao and Linda Petzold},
@@ -97,7 +97,7 @@
   selected  = {false}
 }
 
-@inproceedings{zhao2021empirical,
+@article{zhao2021empirical,
   abstract  = {COVID-19 has been a public health emergency of international concern since early 2020. Reliable forecasting is critical to diminish the impact of this disease. To date, a large number of different forecasting models have been proposed, mainly including statistical models, compartmental models, and deep learning models. However, due to various uncertain factors across different regions such as economics and government policy, no forecasting model appears to be the best for all scenarios. In this paper, we perform quantitative analysis of COVID-19 forecasting of confirmed cases and deaths across different regions in the United States with different forecasting horizons, and evaluate the relative impacts of the following three dimensions on the predictive performance (improvement and variation) through different evaluation metrics: model selection, hyperparameter tuning, and the length of time series required for training. We find that if a dimension brings about higher performance gains, if not well-tuned, it may also lead to harsher performance penalties. Furthermore, model selection is the dominant factor in determining the predictive performance. It is responsible for both the largest improvement and the largest variation in performance in all prediction tasks across different regions. While practitioners may perform more complicated time series analysis in practice, they should be able to achieve reasonable results if they have adequate insight into key decisions like model selection.},
   title     = {Empirical Quantitative Analysis of COVID-19 Forecasting Models},
   author    = {Yun Zhao and Yuqing Wang and Junfeng Liu and Haotian Xia and Zhenni Xu and Qinghang Hong and Zhiyang Zhou and Linda Petzold},
@@ -109,7 +109,7 @@
   selected  = {true}
 }
 
-@inproceedings{wang2021empirical,
+@article{wang2021empirical,
   abstract  = {Multiple organ failure (MOF) is a life-threatening condition. Due to its urgency and high mortality rate, early detection is critical for clinicians to provide appropriate treatment. In this paper, we perform quantitative analysis on early MOF prediction with comprehensive machine learning (ML) configurations, including data preprocessing (missing value treatment, label balancing, feature scaling), feature selection, classifier choice, and hyperparameter tuning. Results show that classifier choice impacts both the performance improvement and variation most among all the configurations. In general, complex classifiers including ensemble methods can provide better performance than simple classifiers. However, blindly pursuing complex classifiers is unwise as it also brings the risk of greater performance variation.},
   title     = {Empirical Analysis of Machine Learning Configurations for Prediction of Multiple Organ Failure in Trauma Patients},
   author    = {Yuqing Wang and Yun Zhao and Rachael Callcut and Linda Petzold},
@@ -120,7 +120,7 @@
   selected  = {false}
 }
 
-@inproceedings{zhao2021bertsurv,
+@article{zhao2021bertsurv,
   abstract  = {Survival analysis is a technique to predict the times of specific outcomes, and is widely used in predicting the outcomes for intensive care unit (ICU) trauma patients. Recently, deep learning models have drawn increasing attention in healthcare. However, there is a lack of deep learning methods that can model the relationship between measurements, clinical notes and mortality outcomes. In this paper we introduce BERTSurv, a deep learning survival framework which applies Bidirectional Encoder Representations from Transformers (BERT) as a language representation model on unstructured clinical notes, for mortality prediction and survival analysis. We also incorporate clinical measurements in BERTSurv. With binary cross-entropy (BCE) loss, BERTSurv can predict mortality as a binary outcome (mortality prediction). With partial log-likelihood (PLL) loss, BERTSurv predicts the probability of mortality as a time-to-event outcome (survival analysis). We apply BERTSurv on Medical Information Mart for Intensive Care III (MIMIC III) trauma patient data. For mortality prediction, BERTSurv obtained an area under the curve of receiver operating characteristic curve (AUC-ROC) of 0.86, which is an improvement of 3.6% over baseline of multilayer perceptron (MLP) without notes. For survival analysis, BERTSurv achieved a concordance index (C-index) of 0.7. In addition, visualizations of BERT's attention heads help to extract patterns in clinical notes and improve model interpretability by showing how the model assigns weights to different inputs.},
   title     = {BERTSurv: BERT-Based Survival Models for Predicting Outcomes of Trauma Patients},
   author    = {Yun Zhao and Qinghang Hong and Xinlu Zhang and Yu Deng and Yuqing Wang and Linda Petzold},
