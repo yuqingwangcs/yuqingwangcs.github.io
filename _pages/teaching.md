@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
+permalink: /Teaching/
+title: Teaching
 description: Courses taught in the past.
 nav: true
 ---
