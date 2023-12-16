@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Postdoctoral Scholar in <a href="https://bmir.stanford.edu/">Biomedical Informatics</a> at <a href="https://www.stanford.edu/">Stanford</a>
+Postdoctoral Scholar at <a href="https://www.stanford.edu/">Stanford</a>
 
 Hi! I am currently a Postdoctoral Scholar at Stanford under <a href="https://med.stanford.edu/boussard-lab">Boussard Lab</a>. Previously, I received my Ph.D. in Computer Science from <a href="https://www.ucsb.edu/">University of California, Santa Barbara</a>
 in 2023, where I was advised by <a href="https://cse.cs.ucsb.edu/">Prof. Linda Petzold</a>. I completed my undergraduate degree in Mathematics at <a href="https://twin-cities.umn.edu/">University of Minnesota, Twin Cities</a>, where I was advised by 
