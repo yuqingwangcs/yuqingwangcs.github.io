@@ -5,6 +5,8 @@ title: Teaching
 description: Courses taught in the past.
 nav: true
 ---
+* Stanford University
+  * <a href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=BIOMEDIN+223%3A+Deploying+and+Evaluating+Fair+AI+in+Healthcare&collapse=">BIOMEDIN 223: Deploying and Evaluating Fair AI in Healthcare</a>. Stanford University, Spring 2024.
 
 * University of California, Santa Barbara
   * <a href="https://cs.ucsb.edu/education/courses/course-descriptions/introduction-computer-science">CMPSCW 8 Introduction to Computer Science</a>. University of California, Santa Barbara, Summer 2021.
