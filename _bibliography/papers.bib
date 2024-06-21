@@ -1,5 +1,17 @@
 ---
 ---
+@article{wang2024unveiling,
+  abstract  = {The advancement of large language models (LLMs) has demonstrated strong capabilities across various applications, including mental health analysis. However, existing studies have focused on predictive performance, leaving the critical issue of fairness underexplored, posing significant risks to vulnerable populations. Despite acknowledging potential biases, previous works have lacked thorough investigations into these biases and their impacts. To address this gap, we systematically evaluate biases across seven social factors (e.g., gender, age, religion) using ten LLMs with different prompting methods on eight diverse mental health datasets. Our results show that GPT-4 achieves the best overall balance in performance and fairness among LLMs, although it still lags behind domain-specific models like MentalRoBERTa in some cases. Additionally, our tailored fairness-aware prompts can effectively mitigate bias in mental health predictions, highlighting the great potential for fair analysis in this field.},
+  title     = {Unveiling and Mitigating Bias in Mental Health Analysis with Large Language Models},
+  author    = {Yuqing Wang and Yun Zhao and Sara Alessandra Keller and Anne de Hond and Marieke M Buchem and Malvika Pillai and Tina Hernandez-Boussard},
+  journal   = {arXiv preprint arXiv:2406.12033},
+  year      = {2024},
+  abbr      = {arXiv},
+  arxiv     = {2406.12033},
+  code      = {https://github.com/EternityYW/BiasEval-LLM-MentalHealth},
+  selected  = {true}
+}
+
 @article{wang2023gemini,
   abstract  = {The burgeoning interest in Multimodal Large Language Models (MLLMs), such as OpenAI's GPT-4V(ision), has significantly impacted both academic and industrial realms. These models enhance Large Language Models (LLMs) with advanced visual understanding capabilities, facilitating their application in a variety of multimodal tasks. Recently, Google introduced Gemini, a cutting-edge MLLM designed specifically for multimodal integration. Despite its advancements, preliminary benchmarks indicate that Gemini lags behind GPT models in commonsense reasoning tasks. However, this assessment, based on a limited dataset (i.e., HellaSWAG), does not fully capture Gemini's authentic commonsense reasoning potential. To address this gap, our study undertakes a thorough evaluation of Gemini's performance in complex reasoning tasks that necessitate the integration of commonsense knowledge across modalities. We carry out a comprehensive analysis of 12 commonsense reasoning datasets, ranging from general to domain-specific tasks. This includes 11 datasets focused solely on language, as well as one that incorporates multimodal elements. Our experiments across four LLMs and two MLLMs demonstrate Gemini's competitive commonsense reasoning capabilities. Additionally, we identify common challenges faced by current LLMs and MLLMs in addressing commonsense problems, underscoring the need for further advancements in enhancing the commonsense reasoning abilities of these models.},
   title     = {Gemini in Reasoning: Unveiling Commonsense in Multimodal Large Language Models},
@@ -20,16 +32,16 @@
   year      = {2023},
   abbr      = {EMNLP},
   arxiv     = {2310.16753},
-  selected  = {true}
+  selected  = {false}
 }
 
 @article{wang2023tram,
   abstract  = {Reasoning about time is essential for understanding the nuances of events described in natural language. Previous research on this topic has been limited in scope, characterized by a lack of standardized benchmarks that would allow for consistent evaluations across different studies. In this paper, we introduce TRAM, a temporal reasoning benchmark composed of ten datasets, encompassing various temporal aspects of events such as order, arithmetic, frequency, and duration, designed to facilitate a comprehensive evaluation of the temporal reasoning capabilities of large language models (LLMs). We conduct an extensive evaluation using popular LLMs, such as GPT-4 and Llama2, in both zero-shot and few-shot learning scenarios. Additionally, we employ BERT-based models to establish the baseline evaluations. Our findings indicate that these models still trail human performance in temporal reasoning tasks. It is our aspiration that TRAM will spur further progress in enhancing the temporal reasoning abilities of LLMs.},
   title     = {TRAM: Benchmarking Temporal Reasoning for Large Language Models},
   author    = {Yuqing Wang and Yun Zhao},
-  journal   = {arXiv preprint arXiv:2310.00835},
-  year      = {2023},
-  abbr      = {arXiv},
+  journal   = {In Findings of the Association for Computational Linguistics: ACL 2024 },
+  year      = {2024},
+  abbr      = {ACL},
   arxiv     = {2310.00835},
   code      = {https://github.com/eternityyw/tram-benchmark},
   selected  = {true}
@@ -50,9 +62,9 @@
   abstract  = {In Large Language Models (LLMs), there have been consistent advancements in task-specific performance, largely influenced by effective prompt design. While recent research on prompting has enhanced the reasoning capabilities of LLMs, a gap remains in further improving their understanding abilities. In this study, we introduce Metacognitive Prompting (MP), a strategy inspired by human introspective reasoning processes. Using MP, LLMs undergo a systematic series of structured, self-aware evaluations, drawing on both their vast inherent knowledge and new insights. Our experiments involve five prevalent LLMs: Llama2, Vicuna, PaLM, GPT-3.5, and GPT-4, all of which span various general natural language understanding (NLU) tasks from the GLUE and SuperGLUE benchmarks. Results indicate that, although GPT-4 consistently excels in most tasks, PaLM, when equipped with MP, approaches its performance level. Furthermore, across models and datasets, MP consistently outperforms existing prompting methods, including standard and chain-of-thought prompting. This study underscores the potential to amplify the understanding abilities of LLMs and highlights the benefits of mirroring human introspective reasoning in NLU tasks.},
   title     = {Metacognitive Prompting Improves Understanding in Large Language Models},
   author    = {Yuqing Wang and Yun Zhao},
-  journal   = {arXiv preprint arXiv:2308.05342},
-  year      = {2023},
-  abbr      = {arXiv},
+  journal   = {In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  year      = {2024},
+  abbr      = {NAACL},
   arxiv     = {2308.05342},
   code      = {https://github.com/EternityYW/Metacognitive-Prompting},
   selected  = {true}
@@ -71,9 +83,9 @@
   abstract  = {The Segment Anything Model (SAM) is a foundation model for general image segmentation. Although it exhibits impressive performance predominantly on natural images, understanding its robustness against various image perturbations and domains is critical for real-world applications where such challenges frequently arise. In this study we conduct a comprehensive robustness investigation of SAM under diverse real-world conditions. Our experiments encompass a wide range of image perturbations. Our experimental results demonstrate that SAM's performance generally declines under perturbed images, with varying degrees of vulnerability across different perturbations. By customizing prompting techniques and leveraging domain knowledge based on the unique characteristics of each dataset, the model's resilience to these perturbations can be enhanced, addressing dataset-specific challenges. This work sheds light on the limitations and strengths of SAM in real-world applications, promoting the development of more robust and versatile image segmentation solutions.},
   title     = {An Empirical Study on the Robustness of the Segment Anything Model (SAM)},
   author    = {Yuqing Wang and Yun Zhao and Linda Petzold},
-  journal   = {arXiv preprint arXiv:2305.06422},
+  journal   = {Pattern Recognition},
   year      = {2023},
-  abbr      = {arXiv},
+  abbr      = {Pattern Recognit.},
   arxiv     = {2305.06422},
   code      = {https://github.com/EternityYW/SAM-Robustness},
   selected  = {false}
